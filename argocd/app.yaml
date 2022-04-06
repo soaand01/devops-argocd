@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/<repo-here>.git
+    repoURL: https://github.com/soaand01/devops-argocd.git
     targetRevision: HEAD
-    path: argo/nginx
+    path: app/nginx
     directory:
       recurse: true
   destination:
